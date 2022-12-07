@@ -1,14 +1,4 @@
 
-
-let imagenes2 = document.querySelectorAll("img");
-imagenes2.addEventListener("mouseover", mouseOver);
-
-
-function mouseOver(){
-  if("mouseover")
- {imagenes2.setAttribute('src','assets/abracadabra.gif')}
- else {imagenes2.setAttribute('src','.reset()') /*Si no funciona probar: imagenes2.src.reset() */}   
-}
 //Eventos
 // Evita el comportamiento por defecto al hacer click. Por ejemplo, si hago click sobre un enlace, este no me llevará a otra página.
 let noclick = document.querySelector('body');
